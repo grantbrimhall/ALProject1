@@ -1,5 +1,10 @@
 # RELEASE NOTES
 
+## 21.2.1.1/2
+
+- added report to delete service package lines
+- adjusted event subscriptions so that both did an if item.get, and both looked for service and non-inventory items.
+
 ## 21.2.1.0
 
 - EventSubscribers provided from Lanham to prevent E-Ship from packing Non-Inventory items
